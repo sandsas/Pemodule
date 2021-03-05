@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4B379A;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.first_section{
+    background-image: url('assets/images/header-bg.jpg');
+    width: 1170px;
+    height: 600px;
+    color: white;
+}
+
+.logo_area {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.text_area {
+	text-align: center;
+	padding-top: 165px;
+	padding-left: 215px;
+    letter-spacing: 3px;
+}
+
+#pemodule {
+	font-size: 130px;
+}
+
+.second_section{
+    background-color: white;
+    padding: 100px 0px;
+}
+
+.left_section{
+    width: 50%;
+    float: left;
+    padding-left: 50px;    
+}
+

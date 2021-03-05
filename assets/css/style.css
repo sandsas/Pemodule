@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,47 +7,66 @@
 }
 
 body{
-    background-color: #4B379A;
+    background-color: #483899;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container {
-	width: 1170px;
-	margin: 0 auto;
-	margin-top: 30px;
-    font-family: sans-serif;
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .first_section{
-    background-image: url('assets/images/header-bg.jpg');
-    width: 1170px;
+    background-image: url('../images/header-bg.jpg');
+    max-width: 1200px;
     height: 600px;
     color: white;
+    position: relative;
+    z-index: 1;
 }
 
-.logo_area {
-	padding-left: 50px;
-	padding-top: 20px;
+.first_section:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #32229f;
+    opacity: .9;
+    z-index: -1;
 }
 
-.text_area {
-	text-align: center;
-	padding-top: 165px;
-	padding-left: 215px;
-    letter-spacing: 3px;
+.logo_area{
+    margin-left: 40px;
+    padding-top: 20px;
 }
 
-#pemodule {
-	font-size: 130px;
-}
-
-.second_section{
-    background-color: white;
+.text_area{
+    text-align: center;
     padding: 100px 0px;
 }
 
-.left_section{
-    width: 50%;
-    float: left;
-    padding-left: 50px;    
+.text_area h3{
+    font-size: 40px;
+    font-weight: 100;
 }
 
+.text_area h1{
+    font-size: 130px;
+    font-weight: 100;
+}
+
+a.bordered_button{
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 55px 12px 30px;
+    position: relative;
+}
+
+a.bordered_button img{
+    max-width: 20px;
+    position: absolute;
+    right: 16px;
+}
