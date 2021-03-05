@@ -16,7 +16,7 @@ body{
 }
 
 .first_section{
-    background-image: url('images/header-bg.jpg');
+    background-image: url('assets/images/header-bg.jpg');
     width: 1170px;
     height: 600px;
     color: white;
