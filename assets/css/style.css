@@ -42,6 +42,10 @@ body{
     padding-top: 20px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .text_area{
     text-align: center;
     padding: 100px 0px;
@@ -63,10 +67,67 @@ a.bordered_button{
     border-radius: 5px;
     padding: 12px 55px 12px 30px;
     position: relative;
+    color: #fff;
 }
 
 a.bordered_button img{
     max-width: 20px;
     position: absolute;
     right: 16px;
+}
+
+.second_section{
+    display: flex;
+    background-color: #fff;
+    padding: 100px 40px;
+}
+
+.left_section, .right_section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left_section h2 {
+	font-weight: 100;
+	font-size: 37px;
+	margin-bottom: 30px;
+}
+
+a.gradient_button{
+    display: inline-block;
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 12px 55px 12px 30px;
+    position: relative; 
+    background: linear-gradient(135deg,  #32229f 0%,#aa57c7 100%);
+    color: #fff ;
+}
+
+a.gradient_button img{
+    max-width: 20px;
+    position:absolute;
+    right: 16px;
+    fill: #fff
+}
+
+.gradient_button{
+    margin-top: 20px;
+}
+
+.third_section{
+    display: flex;
+    background-image: url('../images/header-bg.jpg');
+    padding: 100px 40px;
+}
+
+.text_area_third_section{
+    width: 50%;
+    margin-left: 550px;
+    color: #fff;
+}
+
+.text_area_third_section h2{
+    font-weight: 100;
+	font-size: 37px;
+	margin-bottom: 30px;
 }
